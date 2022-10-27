@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" name="NefroCheck" packages ="">
+<Appenders>
+<File name="MeuLog" fileName="/logs/NefroCheck.log">
+<PatternLayout>
+<Pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg%n</Pattern>
+</PatternLayout>
+</File>
+</Appenders>
+<Loggers>
+<Root level="info">
+</Root>
+</Loggers>
+</Configuration>
